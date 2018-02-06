@@ -14,18 +14,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var txtNombre: UITextField!
     @IBOutlet weak var txtApellido: UITextField!
     
+    var ref:DocumentReference!
+    var getRef:Firestore!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        getRef = Firestore.firestore()
     }
     
     @IBAction func btnGuardar(_ sender: UIButton) {
-        
+        let campos: [String:Any] = [ "nombre": txtNombre.text!, "apellido": txtApellido.text! ]
+        ref = getRef.collection("usuarios").addDocument(data: campos, completion: { ( error ) in
+            if let error = error?.localizedDescription {
+                print("error al guardar", error)
+            } else {
+                print("se guardo correctamente")
+            }
+        })
     }
     
 
