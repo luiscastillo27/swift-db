@@ -14,6 +14,8 @@
 		A088F019202A67DA001C876A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A088F018202A67DA001C876A /* Assets.xcassets */; };
 		A088F01C202A67DA001C876A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A088F01A202A67DA001C876A /* LaunchScreen.storyboard */; };
 		A088F024202A6826001C876A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A088F023202A6826001C876A /* GoogleService-Info.plist */; };
+		A0A4BE82202A719600CF9297 /* Usuarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4BE81202A719600CF9297 /* Usuarios.swift */; };
+		A0A4BE84202A77CB00CF9297 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4BE83202A77CB00CF9297 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		A088F01B202A67DA001C876A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A088F01D202A67DA001C876A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A088F023202A6826001C876A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0A4BE81202A719600CF9297 /* Usuarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuarios.swift; sourceTree = "<group>"; };
+		A0A4BE83202A77CB00CF9297 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		B5765FF106F1F4586747DD44 /* Pods-firestore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firestore.release.xcconfig"; path = "Pods/Target Support Files/Pods-firestore/Pods-firestore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,11 +86,13 @@
 			children = (
 				A088F011202A67DA001C876A /* AppDelegate.swift */,
 				A088F013202A67DA001C876A /* ViewController.swift */,
+				A0A4BE83202A77CB00CF9297 /* EditViewController.swift */,
 				A088F015202A67DA001C876A /* Main.storyboard */,
 				A088F018202A67DA001C876A /* Assets.xcassets */,
 				A088F01A202A67DA001C876A /* LaunchScreen.storyboard */,
 				A088F023202A6826001C876A /* GoogleService-Info.plist */,
 				A088F01D202A67DA001C876A /* Info.plist */,
+				A0A4BE81202A719600CF9297 /* Usuarios.swift */,
 			);
 			path = firestore;
 			sourceTree = "<group>";
@@ -237,7 +243,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A4BE84202A77CB00CF9297 /* EditViewController.swift in Sources */,
 				A088F014202A67DA001C876A /* ViewController.swift in Sources */,
+				A0A4BE82202A719600CF9297 /* Usuarios.swift in Sources */,
 				A088F012202A67DA001C876A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
