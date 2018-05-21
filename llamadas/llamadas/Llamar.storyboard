@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ggC-4f-HJX">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Llamar Controller-->
+        <scene sceneID="eo6-sK-72Q">
+            <objects>
+                <viewController id="ggC-4f-HJX" customClass="LlamarController" customModule="llamadas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d7Y-as-0ta">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Numero telefonico" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DLK-Im-wfN">
+                                <rect key="frame" x="27" y="68" width="266" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="2sJ-8V-PX9"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                            </textField>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="E69-G5-qA1">
+                                <rect key="frame" x="27" y="113" width="266" height="35"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L2J-gh-yVh">
+                                        <rect key="frame" x="0.0" y="0.0" width="133" height="35"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzN-Mo-YYf">
+                                        <rect key="frame" x="133" y="0.0" width="133" height="35"/>
+                                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="llamar">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="callNumber:" destination="ggC-4f-HJX" eventType="touchUpInside" id="Yko-nK-4Vh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="YzJ-qt-lu4"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="0.42289169520547948" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jcN-FJ-958" firstAttribute="trailing" secondItem="E69-G5-qA1" secondAttribute="trailing" constant="27" id="R0R-sQ-1pa"/>
+                            <constraint firstItem="DLK-Im-wfN" firstAttribute="top" secondItem="jcN-FJ-958" secondAttribute="top" constant="48" id="WKE-Up-HlC"/>
+                            <constraint firstItem="jcN-FJ-958" firstAttribute="trailing" secondItem="DLK-Im-wfN" secondAttribute="trailing" constant="27" id="ary-Tw-CZX"/>
+                            <constraint firstItem="DLK-Im-wfN" firstAttribute="leading" secondItem="jcN-FJ-958" secondAttribute="leading" constant="27" id="h93-NY-3L0"/>
+                            <constraint firstItem="E69-G5-qA1" firstAttribute="top" secondItem="DLK-Im-wfN" secondAttribute="bottom" constant="10" id="pUF-zx-PON"/>
+                            <constraint firstItem="E69-G5-qA1" firstAttribute="leading" secondItem="jcN-FJ-958" secondAttribute="leading" constant="27" id="rud-SY-PQC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jcN-FJ-958"/>
+                    </view>
+                    <connections>
+                        <outlet property="txtNumber" destination="DLK-Im-wfN" id="vcV-Qn-uL8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xZ4-Ip-94w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-135" y="83.450704225352112"/>
+        </scene>
+    </scenes>
+</document>

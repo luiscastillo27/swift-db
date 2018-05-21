@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rj2-c5-wcz">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Correo Controller-->
+        <scene sceneID="wb0-qX-yXz">
+            <objects>
+                <viewController id="rj2-c5-wcz" customClass="CorreoController" customModule="llamadas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ijh-VO-4yX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="h8J-co-4pg">
+                                <rect key="frame" x="27" y="47" width="266" height="100"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo electronico" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zH7-2m-ZNt">
+                                        <rect key="frame" x="0.0" y="0.0" width="266" height="45"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Asunto" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="61i-gG-27T">
+                                        <rect key="frame" x="0.0" y="55" width="266" height="45"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="bw4-ui-77g"/>
+                                </constraints>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WSU-eE-Mu8">
+                                <rect key="frame" x="27" y="158" width="266" height="186"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="186" id="MjB-vl-00g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="CYK-EQ-ReD">
+                                <rect key="frame" x="27" y="355" width="266" height="35"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oKn-L8-VsH">
+                                        <rect key="frame" x="0.0" y="0.0" width="129" height="35"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaO-rg-bBy">
+                                        <rect key="frame" x="137" y="0.0" width="129" height="35"/>
+                                        <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="Enviar correo">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="sendEmail:" destination="rj2-c5-wcz" eventType="touchUpInside" id="OHc-tI-aty"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Xfn-V3-6LS"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WSU-eE-Mu8" firstAttribute="top" secondItem="h8J-co-4pg" secondAttribute="bottom" constant="11" id="7uG-hB-olx"/>
+                            <constraint firstItem="ZQo-K1-VII" firstAttribute="trailing" secondItem="h8J-co-4pg" secondAttribute="trailing" constant="27" id="92L-Ro-EVa"/>
+                            <constraint firstItem="ZQo-K1-VII" firstAttribute="trailing" secondItem="CYK-EQ-ReD" secondAttribute="trailing" constant="27" id="NV7-aL-wM6"/>
+                            <constraint firstItem="CYK-EQ-ReD" firstAttribute="leading" secondItem="ZQo-K1-VII" secondAttribute="leading" constant="27" id="Onp-yy-xhD"/>
+                            <constraint firstItem="WSU-eE-Mu8" firstAttribute="leading" secondItem="ZQo-K1-VII" secondAttribute="leading" constant="27" id="Plo-Iv-pVw"/>
+                            <constraint firstItem="CYK-EQ-ReD" firstAttribute="top" secondItem="WSU-eE-Mu8" secondAttribute="bottom" constant="11" id="dhx-xa-jHb"/>
+                            <constraint firstItem="ZQo-K1-VII" firstAttribute="trailing" secondItem="WSU-eE-Mu8" secondAttribute="trailing" constant="27" id="fMr-Ko-yJ2"/>
+                            <constraint firstItem="h8J-co-4pg" firstAttribute="leading" secondItem="ZQo-K1-VII" secondAttribute="leading" constant="27" id="lVl-IY-OFN"/>
+                            <constraint firstItem="h8J-co-4pg" firstAttribute="top" secondItem="ZQo-K1-VII" secondAttribute="top" constant="27" id="lzC-yZ-SAd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZQo-K1-VII"/>
+                    </view>
+                    <connections>
+                        <outlet property="txtAsnto" destination="61i-gG-27T" id="XIm-cm-QqG"/>
+                        <outlet property="txtEmail" destination="zH7-2m-ZNt" id="7cc-nx-4Zv"/>
+                        <outlet property="txtSMS" destination="WSU-eE-Mu8" id="LqC-0O-mlc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C6s-G8-bQI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-223.125" y="242.95774647887325"/>
+        </scene>
+    </scenes>
+</document>
