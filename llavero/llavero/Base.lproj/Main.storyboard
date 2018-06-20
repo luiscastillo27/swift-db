@@ -132,14 +132,23 @@
                                 <rect key="frame" x="27" y="169" width="321" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcX-3K-Ft9">
-                                        <rect key="frame" x="0.0" y="0.0" width="107" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="80.5" height="30"/>
                                         <state key="normal" title="Guardar"/>
                                         <connections>
                                             <action selector="btnSave:" destination="OhU-VC-FOp" eventType="touchUpInside" id="YpD-KE-CEq"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4V-v2-m3C">
+                                        <rect key="frame" x="80.5" y="0.0" width="80" height="30"/>
+                                        <state key="normal" title="Actualizar">
+                                            <color key="titleColor" red="0.34658734782819678" green="0.85965835492227982" blue="0.34901382674915371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnUpdate:" destination="OhU-VC-FOp" eventType="touchUpInside" id="UIA-Sx-pfO"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XS9-KG-jZF">
-                                        <rect key="frame" x="107" y="0.0" width="107" height="30"/>
+                                        <rect key="frame" x="160.5" y="0.0" width="80.5" height="30"/>
                                         <state key="normal" title="Mostrar">
                                             <color key="titleColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
@@ -148,7 +157,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaK-2X-HEZ">
-                                        <rect key="frame" x="214" y="0.0" width="107" height="30"/>
+                                        <rect key="frame" x="241" y="0.0" width="80" height="30"/>
                                         <state key="normal" title="Eliminar">
                                             <color key="titleColor" red="1" green="0.17162714128378576" blue="0.065201139284943643" alpha="0.82402618838028174" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
