@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272994D505F1176279102AECD1654F7C /* CarbonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 343548C93D2F4E117F01CC3C3A00B5C9 /* CarbonKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		421895BD2E91714FE4482DAA6FDA1EF7 /* Pods-TabSwipe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FB9F86B15C665A196500EE5C5570C4 /* Pods-TabSwipe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42C6F46DBE01876FEF2029A23FDF1AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		5BE71BBF59DF369C12180A980D171DB6 /* CarbonTabSwipeNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A08BBF18647987CB94661675B7FABBE /* CarbonTabSwipeNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B04BC2FB9C123DF48DF40496F16C50A /* Pods-TabSwipe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC284E9D4A1DE9B251342BB0AEDEF087 /* Pods-TabSwipe-dummy.m */; };
+		8258C2B985202EFD8C4AC8D2677BD6E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		8D8A99A8CB1098F26A7011B11D2A1D7C /* CarbonTabSwipeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E76A3F2E8047EF0FCE57A37800C8EEE6 /* CarbonTabSwipeScrollView.m */; };
+		92699255BD337585B0393907D868F2EC /* CarbonSwipeRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 491EDDC41300C2E728AE09C164EC5B2C /* CarbonSwipeRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C15D21F02D0F9D228B0ECA98104F009D /* CarbonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE5B00FAD563131596C149EF80DDD99 /* CarbonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C604C4728D9B8595D03353EDDB9908EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		CAD32B8B682A304616259E567AF557A0 /* CarbonTabSwipeNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5893E8D2CB8102CA2606ABA8D8F31009 /* CarbonTabSwipeNavigation.m */; };
+		CC10BCB12467F9FF1F11896665CA10D5 /* CarbonSwipeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 026C281735F5EF60B8385434BFB3A159 /* CarbonSwipeRefresh.m */; };
+		CCBC164D7C0BC3CD2F4CEB44037568EB /* CarbonTabSwipeSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFB571957CD40FF6C42A88CA9A211B8 /* CarbonTabSwipeSegmentedControl.m */; };
+		D4364D20E2834908891D0884314458E6 /* CarbonTabSwipeScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0EDCEFBBBF6FFDEDBF7B278B7D7538B /* CarbonTabSwipeScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4619D7DC2FB9817C0B3B6110C23DF8 /* CarbonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC62F4E14E439F908CBCA0951B81968 /* CarbonKit-dummy.m */; };
+		EC8CBEC613EFC51907CE6A0C204F656B /* CarbonTabSwipeSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC27F5F777D562F9F99FE11DDE765E5 /* CarbonTabSwipeSegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC5EB586F4DB8AF442E6AE677CBAB00F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62C2270A1136266115608DD358A7F711;
+			remoteInfo = CarbonKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014AAB77295B1A03C2F17E5B0725E001 /* Pods-TabSwipe-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabSwipe-resources.sh"; sourceTree = "<group>"; };
+		026C281735F5EF60B8385434BFB3A159 /* CarbonSwipeRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonSwipeRefresh.m; path = CarbonKit/CarbonSwipeRefresh.m; sourceTree = "<group>"; };
+		0FD786E66ADC4B84324B53188A39D132 /* CarbonKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CarbonKit.modulemap; sourceTree = "<group>"; };
+		16697680B9ED9C2B9A2848BEF7D1808F /* Pods-TabSwipe-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabSwipe-frameworks.sh"; sourceTree = "<group>"; };
+		2B66E5B2D02294871FA6E0376AA74CC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		343548C93D2F4E117F01CC3C3A00B5C9 /* CarbonKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarbonKit-umbrella.h"; sourceTree = "<group>"; };
+		4478DF2A177CA445EEB2B6FBDB6383A9 /* Pods-TabSwipe-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabSwipe-acknowledgements.plist"; sourceTree = "<group>"; };
+		491EDDC41300C2E728AE09C164EC5B2C /* CarbonSwipeRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonSwipeRefresh.h; path = CarbonKit/CarbonSwipeRefresh.h; sourceTree = "<group>"; };
+		4AC62F4E14E439F908CBCA0951B81968 /* CarbonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CarbonKit-dummy.m"; sourceTree = "<group>"; };
+		5893E8D2CB8102CA2606ABA8D8F31009 /* CarbonTabSwipeNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonTabSwipeNavigation.m; path = CarbonKit/CarbonTabSwipeNavigation.m; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7ED9310CB4EE856909A5A43F15DF7ABF /* CarbonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CarbonKit.framework; path = CarbonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		868197C235199364816B9B6151811834 /* Pods_TabSwipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TabSwipe.framework; path = "Pods-TabSwipe.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89381F80A9AF1E8E8EFAB6E27339337A /* CarbonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CarbonKit-prefix.pch"; sourceTree = "<group>"; };
+		8A08BBF18647987CB94661675B7FABBE /* CarbonTabSwipeNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonTabSwipeNavigation.h; path = CarbonKit/CarbonTabSwipeNavigation.h; sourceTree = "<group>"; };
+		8FC27F5F777D562F9F99FE11DDE765E5 /* CarbonTabSwipeSegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonTabSwipeSegmentedControl.h; path = CarbonKit/CarbonTabSwipeSegmentedControl.h; sourceTree = "<group>"; };
+		932EE759BC3691C701E5A15EAB5278FB /* Pods-TabSwipe-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TabSwipe-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C0BEB5F3EE5C41896A6489070DE4937 /* Pods-TabSwipe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TabSwipe.modulemap"; sourceTree = "<group>"; };
+		A0430E1A85167464B59E919AB5720D23 /* Pods-TabSwipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabSwipe.release.xcconfig"; sourceTree = "<group>"; };
+		AC284E9D4A1DE9B251342BB0AEDEF087 /* Pods-TabSwipe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TabSwipe-dummy.m"; sourceTree = "<group>"; };
+		B384215346EA49989AE23FB3D09E89FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBE5B00FAD563131596C149EF80DDD99 /* CarbonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonKit.h; path = CarbonKit/CarbonKit.h; sourceTree = "<group>"; };
+		C0EDCEFBBBF6FFDEDBF7B278B7D7538B /* CarbonTabSwipeScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CarbonTabSwipeScrollView.h; path = CarbonKit/CarbonTabSwipeScrollView.h; sourceTree = "<group>"; };
+		E76A3F2E8047EF0FCE57A37800C8EEE6 /* CarbonTabSwipeScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonTabSwipeScrollView.m; path = CarbonKit/CarbonTabSwipeScrollView.m; sourceTree = "<group>"; };
+		E98D8509C31CCED8E865BE8DF8B4190F /* CarbonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CarbonKit.xcconfig; sourceTree = "<group>"; };
+		F3FB9F86B15C665A196500EE5C5570C4 /* Pods-TabSwipe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TabSwipe-umbrella.h"; sourceTree = "<group>"; };
+		FAFB571957CD40FF6C42A88CA9A211B8 /* CarbonTabSwipeSegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CarbonTabSwipeSegmentedControl.m; path = CarbonKit/CarbonTabSwipeSegmentedControl.m; sourceTree = "<group>"; };
+		FC1736D665FAAF39E68850319E0917AF /* Pods-TabSwipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabSwipe.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		101B83D7F4E83F960D5D8A068598DDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C6F46DBE01876FEF2029A23FDF1AE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC68BDD5539D4ED99A9B41FC2991EE7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C604C4728D9B8595D03353EDDB9908EA /* Foundation.framework in Frameworks */,
+				8258C2B985202EFD8C4AC8D2677BD6E5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		611ED04EB53200E79D62F8FF345B09BE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EC067CAE5BF63207B7CE45B22C3150E /* Pods-TabSwipe */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6EC067CAE5BF63207B7CE45B22C3150E /* Pods-TabSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				2B66E5B2D02294871FA6E0376AA74CC4 /* Info.plist */,
+				9C0BEB5F3EE5C41896A6489070DE4937 /* Pods-TabSwipe.modulemap */,
+				932EE759BC3691C701E5A15EAB5278FB /* Pods-TabSwipe-acknowledgements.markdown */,
+				4478DF2A177CA445EEB2B6FBDB6383A9 /* Pods-TabSwipe-acknowledgements.plist */,
+				AC284E9D4A1DE9B251342BB0AEDEF087 /* Pods-TabSwipe-dummy.m */,
+				16697680B9ED9C2B9A2848BEF7D1808F /* Pods-TabSwipe-frameworks.sh */,
+				014AAB77295B1A03C2F17E5B0725E001 /* Pods-TabSwipe-resources.sh */,
+				F3FB9F86B15C665A196500EE5C5570C4 /* Pods-TabSwipe-umbrella.h */,
+				FC1736D665FAAF39E68850319E0917AF /* Pods-TabSwipe.debug.xcconfig */,
+				A0430E1A85167464B59E919AB5720D23 /* Pods-TabSwipe.release.xcconfig */,
+			);
+			name = "Pods-TabSwipe";
+			path = "Target Support Files/Pods-TabSwipe";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D4C2A81C621EA426B6BE5C4580166503 /* Pods */,
+				E6C52661D47E11AC84AF47569B6BD5E0 /* Products */,
+				611ED04EB53200E79D62F8FF345B09BE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87B45AD654ED07C7E2F4F15BB644E29F /* CarbonKit */ = {
+			isa = PBXGroup;
+			children = (
+				BBE5B00FAD563131596C149EF80DDD99 /* CarbonKit.h */,
+				491EDDC41300C2E728AE09C164EC5B2C /* CarbonSwipeRefresh.h */,
+				026C281735F5EF60B8385434BFB3A159 /* CarbonSwipeRefresh.m */,
+				8A08BBF18647987CB94661675B7FABBE /* CarbonTabSwipeNavigation.h */,
+				5893E8D2CB8102CA2606ABA8D8F31009 /* CarbonTabSwipeNavigation.m */,
+				C0EDCEFBBBF6FFDEDBF7B278B7D7538B /* CarbonTabSwipeScrollView.h */,
+				E76A3F2E8047EF0FCE57A37800C8EEE6 /* CarbonTabSwipeScrollView.m */,
+				8FC27F5F777D562F9F99FE11DDE765E5 /* CarbonTabSwipeSegmentedControl.h */,
+				FAFB571957CD40FF6C42A88CA9A211B8 /* CarbonTabSwipeSegmentedControl.m */,
+				CFCFD42DBE942E2DBF8493443C46F7B3 /* Support Files */,
+			);
+			name = CarbonKit;
+			path = CarbonKit;
+			sourceTree = "<group>";
+		};
+		CFCFD42DBE942E2DBF8493443C46F7B3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FD786E66ADC4B84324B53188A39D132 /* CarbonKit.modulemap */,
+				E98D8509C31CCED8E865BE8DF8B4190F /* CarbonKit.xcconfig */,
+				4AC62F4E14E439F908CBCA0951B81968 /* CarbonKit-dummy.m */,
+				89381F80A9AF1E8E8EFAB6E27339337A /* CarbonKit-prefix.pch */,
+				343548C93D2F4E117F01CC3C3A00B5C9 /* CarbonKit-umbrella.h */,
+				B384215346EA49989AE23FB3D09E89FA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CarbonKit";
+			sourceTree = "<group>";
+		};
+		D4C2A81C621EA426B6BE5C4580166503 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87B45AD654ED07C7E2F4F15BB644E29F /* CarbonKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E6C52661D47E11AC84AF47569B6BD5E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7ED9310CB4EE856909A5A43F15DF7ABF /* CarbonKit.framework */,
+				868197C235199364816B9B6151811834 /* Pods_TabSwipe.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F2C7E1C0C7B3B7735615D2238A798001 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272994D505F1176279102AECD1654F7C /* CarbonKit-umbrella.h in Headers */,
+				C15D21F02D0F9D228B0ECA98104F009D /* CarbonKit.h in Headers */,
+				92699255BD337585B0393907D868F2EC /* CarbonSwipeRefresh.h in Headers */,
+				5BE71BBF59DF369C12180A980D171DB6 /* CarbonTabSwipeNavigation.h in Headers */,
+				D4364D20E2834908891D0884314458E6 /* CarbonTabSwipeScrollView.h in Headers */,
+				EC8CBEC613EFC51907CE6A0C204F656B /* CarbonTabSwipeSegmentedControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2F7371B4A48F732DDAEB96E42BEE6B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421895BD2E91714FE4482DAA6FDA1EF7 /* Pods-TabSwipe-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07859A20EE8F5BA015FA0A0C028DED66 /* Pods-TabSwipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8756CD52E49C360FBF2ADD600C2486 /* Build configuration list for PBXNativeTarget "Pods-TabSwipe" */;
+			buildPhases = (
+				F2F7371B4A48F732DDAEB96E42BEE6B9 /* Headers */,
+				E2CA74E21CDB631150C2B92AF3B3B960 /* Sources */,
+				101B83D7F4E83F960D5D8A068598DDFB /* Frameworks */,
+				1033CAF229D3F7BC720154F49381C5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB377D5470073124A35CDABE717803CD /* PBXTargetDependency */,
+			);
+			name = "Pods-TabSwipe";
+			productName = "Pods-TabSwipe";
+			productReference = 868197C235199364816B9B6151811834 /* Pods_TabSwipe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62C2270A1136266115608DD358A7F711 /* CarbonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 973B5F9015BBC8C7CDE8075A1BCDFA8E /* Build configuration list for PBXNativeTarget "CarbonKit" */;
+			buildPhases = (
+				F2C7E1C0C7B3B7735615D2238A798001 /* Headers */,
+				D34EC49202EA9F8C2548DE32E6418236 /* Sources */,
+				AC68BDD5539D4ED99A9B41FC2991EE7E /* Frameworks */,
+				38DCCFF496338E24353CE3D5A94C717F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarbonKit;
+			productName = CarbonKit;
+			productReference = 7ED9310CB4EE856909A5A43F15DF7ABF /* CarbonKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E6C52661D47E11AC84AF47569B6BD5E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62C2270A1136266115608DD358A7F711 /* CarbonKit */,
+				07859A20EE8F5BA015FA0A0C028DED66 /* Pods-TabSwipe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1033CAF229D3F7BC720154F49381C5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38DCCFF496338E24353CE3D5A94C717F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D34EC49202EA9F8C2548DE32E6418236 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4619D7DC2FB9817C0B3B6110C23DF8 /* CarbonKit-dummy.m in Sources */,
+				CC10BCB12467F9FF1F11896665CA10D5 /* CarbonSwipeRefresh.m in Sources */,
+				CAD32B8B682A304616259E567AF557A0 /* CarbonTabSwipeNavigation.m in Sources */,
+				8D8A99A8CB1098F26A7011B11D2A1D7C /* CarbonTabSwipeScrollView.m in Sources */,
+				CCBC164D7C0BC3CD2F4CEB44037568EB /* CarbonTabSwipeSegmentedControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CA74E21CDB631150C2B92AF3B3B960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B04BC2FB9C123DF48DF40496F16C50A /* Pods-TabSwipe-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB377D5470073124A35CDABE717803CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CarbonKit;
+			target = 62C2270A1136266115608DD358A7F711 /* CarbonKit */;
+			targetProxy = CC5EB586F4DB8AF442E6AE677CBAB00F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5506917A6F81EB2A87C573C862A4ECF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E98D8509C31CCED8E865BE8DF8B4190F /* CarbonKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CarbonKit/CarbonKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarbonKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CarbonKit/CarbonKit.modulemap";
+				PRODUCT_MODULE_NAME = CarbonKit;
+				PRODUCT_NAME = CarbonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EDEA64D7E2D9DED68282644CF27DEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E98D8509C31CCED8E865BE8DF8B4190F /* CarbonKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CarbonKit/CarbonKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CarbonKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CarbonKit/CarbonKit.modulemap";
+				PRODUCT_MODULE_NAME = CarbonKit;
+				PRODUCT_NAME = CarbonKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D546DDBE374C0817A8BCCBCCB88C7030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0430E1A85167464B59E919AB5720D23 /* Pods-TabSwipe.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TabSwipe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabSwipe/Pods-TabSwipe.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0BD416708C1F29C600208CB6749340D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1736D665FAAF39E68850319E0917AF /* Pods-TabSwipe.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TabSwipe/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TabSwipe/Pods-TabSwipe.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		973B5F9015BBC8C7CDE8075A1BCDFA8E /* Build configuration list for PBXNativeTarget "CarbonKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5506917A6F81EB2A87C573C862A4ECF0 /* Debug */,
+				7EDEA64D7E2D9DED68282644CF27DEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8756CD52E49C360FBF2ADD600C2486 /* Build configuration list for PBXNativeTarget "Pods-TabSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BD416708C1F29C600208CB6749340D /* Debug */,
+				D546DDBE374C0817A8BCCBCCB88C7030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
