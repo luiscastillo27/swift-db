@@ -14,19 +14,19 @@ class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let items = ["Features", "Products", "About"]
+        let items = ["Alta", "Media", "Baja"]
+        
+        let widthItems = self.view.frame.width / 5.3
         let carbonTabSwipeNavigation = CarbonTabSwipeNavigation(items: items, delegate: self)
+        carbonTabSwipeNavigation.setSelectedColor(UIColor.red)
+        carbonTabSwipeNavigation.setIndicatorColor(UIColor.red)
+        carbonTabSwipeNavigation.setTabExtraWidth( widthItems )
         carbonTabSwipeNavigation.insert(intoRootViewController: self)
         // Do any additional setup after loading the view, typically from a nib.
     }
     //
     
-    func carbonTabSwipeNavigation(_ carbonTabSwipeNavigation: CarbonTabSwipeNavigation, viewControllerAt index: UInt) -> UIViewController {
-        let view1 = self.storyboard?.instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
-        let view2 = self.storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
-        let view3 = self.storyboard?.instantiateViewController(withIdentifier: "ThirdViewController") as! ThirdViewController
-        print( index )
-        
+    func carbonTabSwipeNavigation(_ carbonTabSwipeNavigation: CarbonTabSwipeNavigation, viewControllerAt index: UInt) -> UIViewController {        
         if index == 0 {
             return self.storyboard?.instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
         } else if index == 1 {
